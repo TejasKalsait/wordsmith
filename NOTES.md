@@ -1,0 +1,4 @@
+# WordSmith notes
+
+## Bigram model
+
