@@ -1,5 +1,7 @@
 # MLP Notes
 
+![alt text](../images/bengio-model.png)
+
 - The original paper predicts the next words given the previous words. But we are going to implement the same model on a character-level. Using an MLP
 
 - They have a volaculary of 17,000 words and each word is embedded as a 30 dimension vector
@@ -67,6 +69,8 @@ it logs it, and calculate the mean and negating it. So basically calculating neg
 - It is a good practice to overfit the single batch data data to see if everything is woking including loss accumulation
 
 ## Finding a good learning rate
+
+![alt text](../images/5bf7468b-1be7-487d-8eea-e7cfe28838fa.png)
 
 - Figure out the lower bound and upper bound by trial and error. By seeing if it is going down smooth for low end and unstable for high end
 - Create a list of learning rates from lower bound to upper bound.
